@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/page/content/index.html.twig' %}
+
+{% set options = {
+    text: "From TWIG: -" ~ page.header.extensions.example_var.value
+} %}
+
+{% block base_main_inner %}
+    {{ parent() }}
+
+    <template data-test-plugin data-test-plugin-options='{{ options|json_encode }}'></template>
+{% endblock %}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Configuration</title>
+        <title lang="fr-FR">Configuration</title>
+
+        <input-field type="password">
+            <name>secret</name>
+            <label>My API Key</label>
+            <label lang="fr-FR">Ma clé API</label>
+            <helpText>Log-in into Knytify account to get your free API Key</helpText>
+            <helpText lang="fr-FR">Loguez vous dans votre compte Knytify pour avoir votre clé API gratuite</helpText>
+        </input-field>
+    </card>
+</config>

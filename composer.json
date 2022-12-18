@@ -1,0 +1,17 @@
+{
+  "name": "knytify/fraud-protection",
+  "description": "Enable protection against fraudsters & low quality traffic.",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Knytify\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Knytify\\Knytify",
+    "label": {
+      "en-GB": "Enable protection against fraudsters & low quality traffic."
+    }
+  }
+}
